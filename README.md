@@ -7,7 +7,7 @@ Usage
 	git clone https://github.com/debugbp/wordpress-docker
 	cd wordpress-docker
 	touch wordpress.sql
-	curl https://wordpress.org/latest.tar.gz -O wordpres.tar.gz
+	curl https://wordpress.org/latest.tar.gz -O wordpress.tar.gz
 	docker build -t wordpress-docker .
 	docker run -d -e PORT=80 wordpress-docker crond
 
