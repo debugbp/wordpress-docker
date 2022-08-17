@@ -1,2 +1,2 @@
 # wordpress-docker
-run wordpress and mysql in docker
+run wordpress and mariadb in docker
